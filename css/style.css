@@ -1881,3 +1881,40 @@ form label {
 .btn-whatsapp:hover {
   background-color: #128C7E; /* Color verde oscuro al pasar el mouse */
 }
+
+/* responsive */
+/* Estilos para pantallas más pequeñas (smartphones) */
+@media (max-width: 768px) {
+  #fh5co-header {
+    
+      background-position: 55% 0px !important;
+  }
+
+  h1, h2 {
+      font-size: 24px; /* Ajusta el tamaño del texto para móviles */
+  }
+
+  .simply-countdown {
+      font-size: 18px; /* Ajusta el tamaño del contador para móviles */
+  }
+
+  audio {
+      width: 100%; /* Hacer que el reproductor de audio ocupe el ancho disponible */
+  }
+}
+
+/* Estilos para pantallas aún más pequeñas (por ejemplo, 480px) */
+@media (max-width: 480px) {
+  #fh5co-header {
+
+      background-position: 55% 0px !important;
+  }
+
+  h1, h2 {
+      font-size: 20px;
+  }
+
+  .simply-countdown {
+      font-size: 16px;
+  }
+}
